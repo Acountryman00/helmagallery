@@ -1,0 +1,27 @@
+.relatedimg-container img {
+    max-width: 90%;
+    height: 400px;
+}
+
+
+
+.relatedimg-container {
+    margin-bottom: 100px;
+}
+
+.relateditem-info {
+    padding-bottom: 60px;
+}
+
+.relateditem p {
+    font-size: 20px;
+    font-family: "Sofadi One", system-ui;
+}
+
+
+
+@media(max-width:1240px) {
+    .relatedimg-container img {
+        max-height: 300px;
+    }
+}
