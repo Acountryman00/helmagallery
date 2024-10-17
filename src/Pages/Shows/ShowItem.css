@@ -1,0 +1,36 @@
+.show-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-details {
+    color: black;
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 20px;
+    background-color: #f7e6f6;
+    border-radius: 10px;
+}
+
+.show-details p {
+    font-size: 22px;
+    font-weight: 200;
+    border: .5px black;
+
+}
+
+.show-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location {
+    cursor: pointer;
+}
+
+.show-info img {
+    width: 8%;
+
+}

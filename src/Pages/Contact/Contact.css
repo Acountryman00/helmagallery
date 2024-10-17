@@ -1,0 +1,142 @@
+.contact {
+    font-family: "Sofadi One", system-ui;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+}
+
+.contact-overview {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    top: 150px;
+    right: 550px;
+    gap: 10px;
+    padding: 30px;
+    background-color: bisque;
+}
+
+.contact img {
+    width: 100%;
+    height: 110vh;
+    background-color: beige;
+}
+
+.contact-info {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px;
+    z-index: 10;
+    bottom: 30px;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+.message {
+    padding-bottom: 100px;
+    width: 400px;
+}
+
+.subject {
+    padding-bottom: 30px;
+    font-size: 18px;
+    width: 400px;
+}
+
+.email {
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.submit {
+    font-size: 25px;
+    background-color: rgb(132, 30, 30);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.name {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+
+@media(max-width:1280px) {
+    .contact-overview {
+        top: 250px;
+        right: 350px;
+    }
+}
+
+
+@media(max-width:1024px) {
+
+    .contact-overview {
+        right: 300px;
+    }
+}
+
+@media(max-width:900px) {
+
+    .contact-overview {
+        right: 200px;
+    }
+}
+
+@media(max-width:750px) {
+
+    .contact-overview {
+        right: 140px;
+    }
+
+    .contact img {
+        height: 75vh;
+    }
+}
+
+@media(max-width:675px) {
+
+    .contact-overview {
+        right: 65px;
+    }
+
+    .contact img {
+        height: 75vh;
+    }
+}
+
+@media(max-width:600px) {
+
+    .contact-overview {
+        top: 170px;
+        right: 25px;
+    }
+
+    .contact img {
+        height: 75vh;
+    }
+}
+
+@media(max-width:500px) {
+
+    .contact-overview {
+        right: 10px;
+    }
+
+    .contact img {
+        height: 50vh;
+    }
+}
